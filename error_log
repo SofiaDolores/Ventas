@@ -1,0 +1,80 @@
+[10-Aug-2024 23:04:57 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/unidsyst/public_html/sofia/salir.php on line 5
+[10-Aug-2024 23:04:57 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:04:57 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:04:57 America/Mexico_City] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/unidsyst/public_html/sofia/salir.php on line 13
+[10-Aug-2024 23:04:58 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/unidsyst/public_html/sofia/salir.php on line 5
+[10-Aug-2024 23:04:58 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:04:58 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:04:58 America/Mexico_City] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/unidsyst/public_html/sofia/salir.php on line 13
+[10-Aug-2024 23:05:05 America/Mexico_City] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home4/unidsyst/public_html/sofia/salir.php on line 5
+[10-Aug-2024 23:05:05 America/Mexico_City] PHP Warning:  Undefined global variable $_SESSION in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:05:05 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home4/unidsyst/public_html/sofia/salir.php on line 7
+[10-Aug-2024 23:05:05 America/Mexico_City] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home4/unidsyst/public_html/sofia/salir.php on line 13
+[14-Aug-2024 17:54:44 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /home4/unidsyst/public_html/sofia/tercer.php:4
+Stack trace:
+#0 /home4/unidsyst/public_html/sofia/tercer.php(4): mysqli_query(Object(mysqli), 'SELECT MAX(id) ...')
+#1 {main}
+  thrown in /home4/unidsyst/public_html/sofia/tercer.php on line 4
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/busqueda.php on line 363
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/busqueda.php on line 367
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/busqueda.php on line 371
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $titulo in /home4/unidsyst/public_html/sofia/busqueda.php on line 375
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $cibermedio in /home4/unidsyst/public_html/sofia/busqueda.php on line 379
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $grupo in /home4/unidsyst/public_html/sofia/busqueda.php on line 383
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $url in /home4/unidsyst/public_html/sofia/busqueda.php on line 387
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $pais in /home4/unidsyst/public_html/sofia/busqueda.php on line 391
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/busqueda.php on line 395
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/busqueda.php on line 399
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/busqueda.php on line 403
+[14-Aug-2024 17:58:37 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/busqueda.php on line 421
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "fecha" in /home4/unidsyst/public_html/sofia/tercer.php on line 14
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "hora" in /home4/unidsyst/public_html/sofia/tercer.php on line 15
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home4/unidsyst/public_html/sofia/tercer.php on line 16
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "cibermedio" in /home4/unidsyst/public_html/sofia/tercer.php on line 17
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "grupo" in /home4/unidsyst/public_html/sofia/tercer.php on line 18
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "url" in /home4/unidsyst/public_html/sofia/tercer.php on line 19
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "pais" in /home4/unidsyst/public_html/sofia/tercer.php on line 20
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "idioma" in /home4/unidsyst/public_html/sofia/tercer.php on line 21
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "categorizacion" in /home4/unidsyst/public_html/sofia/tercer.php on line 22
+[14-Aug-2024 18:04:27 America/Mexico_City] PHP Warning:  Undefined array key "notas" in /home4/unidsyst/public_html/sofia/tercer.php on line 23
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined array key "sendfolio" in /home4/unidsyst/public_html/sofia/tercer.php on line 1
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 363
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/tercer.php on line 367
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/tercer.php on line 371
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $titulo in /home4/unidsyst/public_html/sofia/tercer.php on line 375
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $cibermedio in /home4/unidsyst/public_html/sofia/tercer.php on line 379
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $grupo in /home4/unidsyst/public_html/sofia/tercer.php on line 383
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $url in /home4/unidsyst/public_html/sofia/tercer.php on line 387
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $pais in /home4/unidsyst/public_html/sofia/tercer.php on line 391
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/tercer.php on line 395
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/tercer.php on line 399
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/tercer.php on line 403
+[14-Aug-2024 18:08:22 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 421
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined array key "sendfolio" in /home4/unidsyst/public_html/sofia/tercer.php on line 1
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/tercer.php on line 367
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/tercer.php on line 371
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/tercer.php on line 395
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/tercer.php on line 399
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/tercer.php on line 403
+[14-Aug-2024 18:12:27 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 421
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined array key "sendfolio" in /home4/unidsyst/public_html/sofia/tercer.php on line 1
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/tercer.php on line 367
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/tercer.php on line 371
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/tercer.php on line 395
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/tercer.php on line 399
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/tercer.php on line 403
+[14-Aug-2024 18:12:51 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 421
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined array key "sendfolio" in /home4/unidsyst/public_html/sofia/tercer.php on line 1
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/tercer.php on line 367
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/tercer.php on line 371
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/tercer.php on line 395
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/tercer.php on line 399
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/tercer.php on line 403
+[14-Aug-2024 18:15:21 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 421
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined array key "sendfolio" in /home4/unidsyst/public_html/sofia/tercer.php on line 1
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $fecha in /home4/unidsyst/public_html/sofia/tercer.php on line 367
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $hora in /home4/unidsyst/public_html/sofia/tercer.php on line 371
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $idioma in /home4/unidsyst/public_html/sofia/tercer.php on line 395
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $categorizacion in /home4/unidsyst/public_html/sofia/tercer.php on line 399
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $notas in /home4/unidsyst/public_html/sofia/tercer.php on line 403
+[14-Aug-2024 18:16:10 America/Mexico_City] PHP Warning:  Undefined variable $folio in /home4/unidsyst/public_html/sofia/tercer.php on line 421
